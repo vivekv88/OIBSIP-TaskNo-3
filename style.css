@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: url("https://www.ist-ag.com/sites/default/files/styles/x_large_full_width/public/media/header/2022-02/Temperatur_Header_web.jpg?itok=eJBspLoR");
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    width: 25vw;
+    height: 30vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.container h2{
+    color:  rgb(61, 29, 190);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.container label{
+    color: rgb(52, 10, 3);
+}
+
+.container select {
+    font-size: 15px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0.6;
+    outline: none;
+    border: none;
+}
+
+.container select option {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container button {
+    align-self: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: red;
+    width: 80px;
+    color: white;
+    border-color: rgb(173, 169, 169);
+}
+
+.container input {
+    width: 98%;
+    font-size: 15px;
+    border-radius: 2px;
+    height: 20px;
+    background-color: rgba(188 220 255);
+    color: rgb(48, 2, 2);
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+#temperature{
+    padding: 5px;
+}
