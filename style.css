@@ -53,8 +53,7 @@ body {
     font-style: normal;
 }
 
-.container button {
-    align-self: center;
+.container button{
     font-size: 15px;
     border-radius: 5px;
     padding: 5px;
@@ -62,6 +61,11 @@ body {
     width: 80px;
     color: white;
     border-color: rgb(173, 169, 169);
+}
+.container .btn{
+    margin: auto;
+    display: flex;
+    gap: 28px;
 }
 
 .container input {
@@ -79,3 +83,4 @@ body {
 #temperature{
     padding: 5px;
 }
+

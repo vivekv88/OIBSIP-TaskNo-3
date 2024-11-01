@@ -1,4 +1,9 @@
-console.log("Hello Sir ")
+function reset(){
+    document.getElementById('fromUnit').value = 'S'
+    document.getElementById('toUnit').value = 'S'
+    document.getElementById('temperature').value = ''
+    document.getElementById('result').value = ''
+}
 
 function getconverted(){
     let fromUnit = document.getElementById('fromUnit').value
